@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var a = document.createElement("div")
+        document.body.append(a)
+
+        setTimeout(() => {
+            a.innerText = "10"
+
+            setTimeout(() => {
+                a.innerText = "9"
+                setTimeout(() => {
+                    a.innerText = "8"
+                    setTimeout(() => {
+                        a.innerText = "7"
+                        setTimeout(() => {
+                            a.innerText = "6"
+                            setTimeout(() => {
+                                a.innerText = "5"
+                                setTimeout(() => {
+                                    a.innerText = "4"
+                                    setTimeout(() => {
+                                        a.innerText = "3"
+                                        setTimeout(() => {
+                                            a.innerText = "2"
+                                            setTimeout(() => {
+                                                a.innerText = "1"
+                                                setTimeout(() => {
+                                                    a.innerText = "Happy Independance Day"
+                                                }, 1000);
+
+                                            }, 1000);
+
+                                        }, 1000);
+
+                                    }, 1000);
+
+                                }, 1000);
+
+                            }, 1000);
+
+                        }, 1000);
+
+                    }, 1000);
+
+                }, 1000);
+
+            }, 1000);
+        }, 1000);
+
+    </script>
+</body>
+
+</html>
